@@ -27,6 +27,7 @@ export default class Task extends React.Component {
                         {...provided.dragHandleProps}
                     >
                         {this.props.task.content}
+                        {provided.Placeholder}
                     </Container>
                 )}
             </Draggable>
